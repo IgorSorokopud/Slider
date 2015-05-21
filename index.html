@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Slider</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta charset="utf-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="js/slider.js"></script>
+</head>
+<body>
+
+<div id="wrapper-slider">
+    <ul id="slider">
+        <li><img src="img/harley.jpg" alt="harley"></li>
+        <li><img src="img/kartinki24_movies_0032.jpg" alt="photo"></li>
+        <li><img src="img/kartinki24_movies_0010.jpg" alt="photo"></li>
+        <li><img src="img/kartinki24_movies_0214.jpg" alt="photo"></li>
+        <li><img src="img/kartinki24_ru_motorcycles_116.jpg" alt="photo"></li>
+        <li><img src="img/kartinki24_ru_motorcycles_117.jpg" alt="photo"></li>
+        <li><img src="img/kartinki24_ru_movies_79.jpg" alt="photo"></li>
+        <li><img src="img/kartinki24_ru_movies_91.jpg" alt="photo"></li>
+        <li><img src="img/kartinki24_movies_0015.jpg" alt="photo"></li>
+        <li><img src="img/kartinki24_movies_0017.jpg" alt="photo"></li>
+        <li><img src="img/kartinki24_movies_0021.jpg" alt="photo"></li>
+        <li><img src="img/kartinki24_movies_0030.jpg" alt="photo"></li>
+    </ul>
+    <div class="arrow back-arrow"></div>
+    <div class="arrow forward-arrow"></div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        Slider.width = 750;
+        Slider.height = 400;
+        Slider.arrowBack = '.back-arrow';
+        Slider.arrowForward = '.forward-arrow';
+        Slider.idSlider = "#slider";
+        Slider.init();
+    });
+</script>
+
+</body>
+</html>

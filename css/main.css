@@ -1,0 +1,59 @@
+body {
+    background: url("../img/bg.gpeg.jpg");
+    background-size: 100%;
+}
+
+#wrapper-slider {
+    border: 5px solid #FAF9FA;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: 100px auto;
+    box-shadow: 0 0 100px 5px #c3c3c3;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    background-color: #ffffff;
+}
+
+.forward-arrow {
+    float: right;
+    background: url("../img/go_previous_rtl.png");
+    right: 0;
+
+}
+
+.back-arrow {
+    background: url("../img/go_next_rtl.png");
+}
+
+#slider {
+    width: 7000px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#slider li {
+    width: 400px;
+    height: 200px;
+    float: left;
+    list-style-type: none;
+    background-color: #424242;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
