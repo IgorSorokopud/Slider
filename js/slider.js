@@ -63,7 +63,7 @@ var Slider = {
         }, 400, function () {
             jQuery(sliderId + ' li:last-child').prependTo(sliderId);
             jQuery(sliderId).css('left', '');
-        });
+        }); 
     },
 
     moveRight: function () {
